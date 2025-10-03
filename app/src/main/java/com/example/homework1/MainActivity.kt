@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        title = "안드로이드 사진 보기"
+        title = "Self Project 4_4"
 
         text1 = findViewById(R.id.Text1)
         text2 = findViewById(R.id.Text2)
