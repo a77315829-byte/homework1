@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="선택을 시작하시겠습니까?"
+        android:textSize="20sp" />
+
+    <Switch
+        android:id="@+id/ChkAgree"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="시작함" />
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="좋아하는 안드로이드 버전은?"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <RadioGroup
+        android:id="@+id/RGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible">
+
+        <RadioButton
+            android:id="@+id/Rdo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오레오 (8.0)" />
+
+        <RadioButton
+            android:id="@+id/Rdo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="파이(9.0)" />
+
+        <RadioButton
+            android:id="@+id/Rdo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q(10.0)" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/ImgBot"
+        android:layout_width="290dp"
+        android:layout_height="256dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/pie" />
+
+    <Button
+        android:id="@+id/BtnExit"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="종료"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/Btnreset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="처음으로"
+        android:visibility="invisible" />
+
+</LinearLayout>
+
